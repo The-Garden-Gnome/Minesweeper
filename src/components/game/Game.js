@@ -1,3 +1,6 @@
+import React from 'react';
+import Board from '../board/Board'
+
 class Game extends React.Component {
     state = {
         height: 8,
@@ -14,3 +17,5 @@ class Game extends React.Component {
         );
     }
 }
+
+export default Game;

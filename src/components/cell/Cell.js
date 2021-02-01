@@ -1,3 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 class Cell extends React.Component {
     getValue() {
         const { value } = this.props;
@@ -36,3 +39,5 @@ Cell.propTypes = {
     onClick: PropTypes.func,
     cMenu: PropTypes.func
 }
+
+export default Cell;
